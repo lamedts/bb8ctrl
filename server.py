@@ -66,7 +66,7 @@ def sendReset():
   return jsonify(result={"status": 200})
 
 
-port = os.getenv('VCAP_APP_PORT', '5000')
+port = os.environ.get('VCAP_APP_PORT')
 if __name__ == "__main__":
       app.run(host='0.0.0.0', port=int(port))
 
