@@ -1,0 +1,7 @@
+
+Flask==0.10.1
+httplib2==0.9.1
+ibmiotf==0.1.1
+logging==0.4.9.6
+paho-mqtt==1.1
+flask-cors==2.1.2
